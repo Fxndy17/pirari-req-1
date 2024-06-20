@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/html/2/style.css">
+  <title>Response</title>
+</head>
+<body>
+  <div class="container">
+    <h2>Send a anonymous message</h2>
+    <form action="/kirim_pesan" method="POST">
+      <label for="nickname">Nickname:</label>
+      <input type="text" name="nick" id="nickname" placeholder="Placeholder" required>
+      <label for="to">To:</label>
+      <input name="untuk" type="text" id="to" placeholder="Placeholder" required>
+      <label for="message">Message:</label>
+      <textarea name="pesan" id="message" placeholder="Placeholder" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>

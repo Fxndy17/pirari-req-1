@@ -1,0 +1,109 @@
+
+/* backup body {
+  background: url('_MG_0007.JPG');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  color: rgb(0, 0, 0);
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+  z-index: 2;
+}
+
+/*
+.overlay {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 255, 7);
+}
+ */
+
+ * {
+  box-sizing: border-box;
+ }
+
+ body {
+  background: url('/images/fotbar.JPG');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  color: rgb(255, 255, 255);
+  font-family: Arial, sans-serif;
+}
+
+.overlay {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(0, 0, 0, 0.7);
+}
+
+.container {
+    z-index: 2;
+  text-align: center;
+}
+
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+} 
+
+p {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: rgba(143, 140, 140,0.7);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
